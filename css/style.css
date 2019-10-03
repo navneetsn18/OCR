@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #cb2d3e;
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  
+    background: linear-gradient(to right, #ef473a, #cb2d3e);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{ 
+    color:white;       
+    font-family: 'Turret Road', cursive;
+    font-size: 4em;
+    margin: 60px;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: white;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Mansalva', cursive;
+}
+
+ul.navbar li.right {
+    float: right;
+}
+
+#active{
+    background: linear-gradient(to right, #ef473a, #cb2d3e); 
+}
+
+.parent{
+    display: table;
+    width: 100%;
+}
+
+.container{
+    background: #2A272A;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 50px 50px;
+    padding: 2em;
+}
+
+.form{
+    display: flexbox;
+    justify-content: center;
+}
+
+.image,.submit{
+    font-family: 'Mansalva', cursive;
+    background: #4B4A54;
+    border: 2.25px solid #FFE0D4;
+    padding: 20px 29px;
+    outline: none;
+    color: white;
+    border-radius: 17px;
+    transition: 0.25s;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 1em auto;
+    max-width: 50%;
+    display: block;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    color: white;
+    font-size: 1.2em;
+}
